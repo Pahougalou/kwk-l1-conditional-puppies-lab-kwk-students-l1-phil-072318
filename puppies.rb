@@ -3,11 +3,12 @@
 puppies = 0
 
 def no_puppies
-  if puppies = 0
+  if puppies == 0
     puts "Well done, Rachel!"
   else puppies > 0
     puts "No more puppies!"
   end
+end
 
 no_puppies
 
